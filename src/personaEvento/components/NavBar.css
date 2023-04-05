@@ -1,0 +1,30 @@
+/* nav {
+    --#{$prefix}navbar-toggler-border-radius: #{$navbar-toggler-border-radius};
+
+} */
+
+
+.colorBg {
+    background-color: rgb(0, 0, 0);
+}
+
+.imgStyles {
+    max-width: 1%;
+    /* max-height: 10%; */
+}
+
+
+.navStyle{
+    border-radius: 10px;
+}
+
+.borderColor {
+    border-color: aliceblue;
+}
+
+
+.nav a {
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-right: 10px;
+  }

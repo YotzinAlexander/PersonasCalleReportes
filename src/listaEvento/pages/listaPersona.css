@@ -1,0 +1,68 @@
+.listaPersona2{
+    width:95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+
+
+    /* font-family: "Euclid Circular A"; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: gradient 10s infinite alternate linear;
+    font-size: larger;
+
+    background-color: #56799d;
+
+    /* background-color: rgb(44, 74, 104); */
+    /* 4, 79, 79, 0.493 */
+    border-radius: 10px;
+}
+
+
+.tableStyle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: rgb(0, 0, 0);
+    width: 70%;
+    text-align: center;
+}
+
+table, th {
+    background-color: rgba(184, 31, 31, 0.237);
+    
+} 
+
+table, th, td {
+    border: 1px solid;
+}
+
+
+.selectt {
+    /* background:rgb(44, 44, 57);  */
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: #040404;
+    font-size: 16px;
+    font-family: "Euclid Circular A";
+
+    width: 250px;
+}
+
+
+
+/* CARDS */
+
+.section {
+    @apply bg-gray-100 h-full md:h-screen w-full;
+  }
+  
+  .container {
+    @apply container mx-auto px-0 md:px-4 py-4;
+  }
+  
+  .layout {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-4;
+  }

@@ -1,0 +1,60 @@
+.personaCalle-center {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+
+
+    font-family: "Euclid Circular A";
+    animation: gradient 10s infinite alternate linear;
+    font-size: larger;
+
+}
+
+.tamanoLetra{
+    font-size: larger;
+}
+
+
+.persona-form {
+    background-color: rgb(132, 141, 141);
+    border-radius: 10px;
+
+    display: grid;
+    gap: 16px;
+    place-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+
+.inputform {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.btnForm {
+    border-radius: 10px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(106, 106, 111);
+}
+.inputFile{
+    width: 500px;
+}
+
+.select {
+    background:rgb(44, 44, 57); 
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: #040404;
+    font-size: 16px;
+    font-family: "Euclid Circular A";
+
+    width: 500px;
+}

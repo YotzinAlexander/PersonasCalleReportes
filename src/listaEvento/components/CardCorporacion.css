@@ -1,0 +1,19 @@
+.backGround-card{
+    background-color: rgba(255, 255, 255, 0.852);
+    width: 310px;
+    height: 150px;
+    /* margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px; */ 
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+}
+
+
+.imgStyle {
+    margin-top: 15px;
+}

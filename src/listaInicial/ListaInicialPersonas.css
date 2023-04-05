@@ -1,0 +1,114 @@
+.listaPersona{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+
+
+    /* font-family: "Euclid Circular A"; */
+    animation: gradient 10s infinite alternate linear;
+    font-size: smaller;
+
+
+
+
+    background-color: rgb(132, 141, 141);
+    border-radius: 10px;
+}
+
+
+.tableStyle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: rgb(0, 0, 0);
+    width: 70%;
+    text-align: center;
+}
+
+table, th {
+    background-color: rgba(255, 255, 255, 0.237);
+} 
+
+table, th, td {
+    border: 1px solid;
+}
+
+.btnEnvia{    
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    background: #ff000093;
+    color: #ffffff;
+    border: 0;
+    border-radius: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* modal */
+
+.editR-form {
+  
+    border-radius: 30px;
+    box-shadow: 0 5px 100px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    width: 800px;
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin:50px auto;
+    
+    padding: 5%;
+    /* background: #3c5f82; */
+    background: rgb(132, 141, 141);
+
+}
+
+.personaCalle-center {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+
+
+    font-family: "Euclid Circular A";
+    animation: gradient 10s infinite alternate linear;
+    font-size: larger;
+
+}
+  
+  .editR-form input {
+    margin-bottom: 10px;
+  }
+  
+  
+  .editR-form h1{
+    text-align: center;
+    color: #fff;
+    font-family: "Euclid Circular A";
+  
+  }
+.editR-form h2{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    /* color: rgb(162, 162, 162); */
+    font-family: "Euclid Circular A";
+    font-size: medium;
+  
+  }
+
+.asignaEvento {
+}
+
+.closeBtn {
+  max-width: 10%;
+  float: right;
+  margin-right: 100px;
+}  
